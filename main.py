@@ -1,6 +1,6 @@
 from multiple_foo import two_multiple
 
 
-test = two_multiple(2,5)
+a,b = int(input()), int(input())
 
-print(test)
+print(two_multiple(a,b))
